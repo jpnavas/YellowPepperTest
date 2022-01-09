@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="As a user i want to find status" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-01-09T22:40:57" hostname="BG-D-JNAVAS01" time="17.485">
+  <properties/>
+  <testcase name="validate that the user can search by the available status" classname="As a user i want to find status" time="16.338"/>
+  <testcase name="validate that the user can search by the Pending status" classname="As a user i want to find status" time="0.578"/>
+  <testcase name="validate that the user can search by the Sold status" classname="As a user i want to find status" time="0.541"/>
+  <system-out><![CDATA[[available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available]
+[pending, pending, pending, pending, pending, pending, pending, pending, pending, pending, pending, pending, pending, pending, pending, pending, pending]
+[sold, sold, sold, sold, sold, sold, sold, sold, sold, sold, sold, sold, sold, sold, sold, sold, sold]
+]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Given the user search with status available
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Juan find by status available
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Juan executes a GET on the resource /pet/findByStatus?status=available
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Status 200 ok
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Then the user validate status 200 and response
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Then compare state data
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[92m
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: validate that the user can search by the available status
+----------------------------------------------------------------------------?[0m
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Given the user search with status Pending
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Juan find by status pending
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Juan executes a GET on the resource /pet/findByStatus?status=pending
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Then The user Validate Response
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Then compare state data
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[92m
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: validate that the user can search by the Pending status
+----------------------------------------------------------------------------?[0m
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Given the user search with status Sold
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Juan find by status sold
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Juan executes a GET on the resource /pet/findByStatus?status=sold
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Then The user Validate Response and status
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Then compare state data
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[92m
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: validate that the user can search by the Sold status
+----------------------------------------------------------------------------?[0m
+]]></system-err>
+</testsuite>
