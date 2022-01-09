@@ -1,0 +1,71 @@
+Monefy Exploratory Testing
+
+•	Explore <Balance>
+With <Validate that when an expense is entered, it is added to the item of expenses (red)>
+To discover < this process makes sense and it's okay>
+•	Explore <Balance>
+With <Validate that when they are income, they are added to the green income>
+To discover < this process makes sense and it's okay>
+
+•	Explore <Balance>
+With <Verify  that the balance is equal to the subtraction of income (green) minus expenses (red)>
+To discover < this process makes sense and it's okay>
+
+•	Explore <Balance>
+With <when I enter the balances option, you can see the income according to the category (deposits, savings, salary) in green and see the expenses according to the category (gifts, car, etc) in red>
+To discover < this process makes sense but here we should also see the subtraction with the total value >
+
+•	Explore <Expenses>
+With <When I have a new expense, I put the value and choose the category, this should add to the expenses>
+To discover < this process makes sense and it's okay>
+
+•	Explore <Expenses>
+With < You cannot continue if you have not entered the expense value>
+To discover < this process makes sense and it's okay>
+
+
+
+•	Explore <Expenses>
+
+With <see what functions the calculator operations and that the value that results if expenses are entered>
+To discover < this process makes sense and it's okay>
+
+•	Explore <Expenses>
+With <when choosing the category the value is saved in the expenses>
+To discover < this process makes sense and it's okay>
+ 
+
+
+•	Explore <Income>
+
+With <When I have a new income, I put the value and choose the category, this should add to the income>
+To discover < this process makes sense and it's okay>
+
+•	Explore <Income>
+With < You cannot continue if you have not entered the income value>
+To discover < this process makes sense and it's okay>
+
+
+•	Explore <Income>
+With <see what functions the calculator operations and that the value that results if income are entered>
+To discover < this process makes sense and it's okay>
+
+•	Explore <Income>
+With <when choosing the category the value is saved in the income>
+To discover < this process makes sense and it's okay>
+
+
+
+Questions
+•	Findings from your charters. Did everything work as expected? What bugs were discovered?
+Everything worked as expected but I found a find when I enter the balance and I do not see the subtraction there from the total value.
+
+•	Prioritization of those charters - which area of the app or testing would you explore first and why? How much time have you planned to spend for each charter?
+The first test will be the balance, because if this fails the application would have a very high reputational risk
+I planned 30 minutes for each charter
+
+•	What kind of risks do you need to mitigate for this type of application?
+
+Number	Type of Risk	Summary	Mitigation Plan
+1	Technical	the subtraction of the income with the expenses is bad	test with expensives and income
+2	Technical	Create a registration without value	Test to check
